@@ -5,7 +5,7 @@ import io
 st.set_page_config(page_title="出貨單轉換小幫手", page_icon="📦", layout="centered")
 
 st.title("📦 出貨單自動轉換小幫手")
-st.write("請上傳原始的 s06 出貨單 (.xls 或 .xlsx)，系統會自動剔除非黑豆漿的倉儲課、重新計算合計，並匯出為乾淨的 6 欄 Excel 檔案。")
+st.write("請上傳原始的出貨單 (.xls 或 .xlsx)，系統會自動剔除非黑豆漿的倉儲課、重新計算合計，並匯出為乾淨的 6 欄 Excel 檔案。")
 
 # 支援多檔案同時上傳
 uploaded_files = st.file_uploader("請選擇或拖曳出貨單檔案", type=['xls', 'xlsx'], accept_multiple_files=True)
